@@ -1,0 +1,45 @@
+.gallery-title {
+    text-align: center;
+    color: #38bdf8;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.gallery-subtitle {
+    text-align: center;
+    color: #94a3b8;
+    margin-bottom: 2.5rem;
+}
+
+.gallery-card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.gallery-card-img {
+    border-radius: 6px;
+    object-fit: contain;
+    padding: 0.5rem;
+    max-height: 220px;
+}
+
+.badge-gaming {
+    background-color: #ef4444;
+}
+
+.badge-workstation {
+    background-color: #a855f7;
+}
+
+.badge-ultra {
+    background-color: #10b981;
+}
